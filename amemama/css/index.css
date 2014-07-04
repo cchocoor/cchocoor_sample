@@ -9,6 +9,9 @@ a {
 img {
 	border-radius: 2px;
 }
+ul,li,ol {
+	list-style: none;
+}
 .f-family-base {
 	font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; 
 }
@@ -187,16 +190,16 @@ div.f-color-bar.f-size-22 {
 }*/
 
 /* displayテーブルを使ったパターン！--------------- */
-div.picup-contents.box {
+li.picup-contents.box {
 	padding: 5px;
 }
-div.picup-contents {
+li.picup-contents {
 	padding: 5px;
 }
-div.pickup-contents-left.p-box {
+li.pickup-contents-left.p-box {
 	/*width: 72%;*/
 }
-div.pickup-contents-right.p-box {
+li.pickup-contents-right.p-box {
 	text-align: center;
 	width: 20%;
 }
@@ -223,11 +226,11 @@ div.pickup-contents-right.p-box {
 .sub-p {
 	padding-left: 5px;
 }
-div.picup-contents {
+li.picup-contents {
 border-bottom: 1px solid #ccc;
 -webkit-box-shadow: 2px 2px 2px #fff;　
 }
-div.picup-contents:nth-child(6) {
+li.picup-contents:nth-child(6) {
 	border-bottom: none;
 }
 .colum {
