@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+/*
+フォント指定
+———————————–*/
+a {
+	text-decoration: none;
+}
+img {
+	border-radius: 2px;
+}
+ul,li,ol {
+	list-style: none;
+}
+.f-family-base {
+	font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; 
+}
+.f-family-header {
+	font-family : 'Kozuka Mincho Pro','小塚明朝 Pro';
+}
+.f-weight_b {
+	font-weight: bold;
+}
+.f-weight_l {
+	font-weight: lighter;
+}
+.f-color-bar {
+	color: #fff;
+}
+.f-color-base {
+	color: #333;
+}
+.f-color-pu {
+	color: #233c51;
+}
+.f-color-pu-sub {
+	color: #999;
+}
+.f-size-16 {
+	font-size: 8px;
+}
+.f-size-18 {
+	font-size: 9px;
+}
+.f-size-20 {
+	font-size: 12px;
+}
+.f-size-22 {
+	font-size: 11px;
+}
+.f-size-30 {
+	font-size: 15px;
+}
+.f-size-34 {
+	font-size: 17px;
+}
+.f-size-28 {
+	font-size: 14px;
+}
+
+/*
+色指定
+———————————–*/
+.bg-color {
+	background-color: #f3f2f1;
+}
+.bg-color-sub {
+	background-color: #fff;
+}
+.bar-color {
+	background-color: #ff6d99;
+	box-shadow: 1px 1px 2px rgb(210, 210, 210);
+}
+.btn-color {
+	background-color: #233c51;
+}
+
+/*
+header指定
+———————————–*/
+header {
+	height: 34px;
+	border-bottom: 2px solid #ff6d99;
+}
+div.header-left-contents {
+width: 150px;
+}
+.header-contents {
+	background-color: rgb(248,248,248);
+}
+.header-left-contents,
+.header-left-contents-logo,
+.header-left-contents-home {
+	float: left;
+}
+.header-left-contents-home {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+div.header-right-contents {
+	float: right;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+.head-img-center {
+	/*width: 100%;*/
+	margin: 0 auto;
+}
+/*
+メインコンテンツ指定
+———————————–*/
+.main-contents {
+	background-color: #fff;
+}
+.contents-head {
+	height: 46px;
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+}
+.head-catch-copy {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 2px;/*
+	width: 135px;*/
+}
+.head-amemama-img {
+	padding-left: 5px;
+}
+.head-left {
+	width: 160px;
+}
+.head-menu {
+	width: 50px;
+	height: 46px;
+	border-left: 1px solid #ededed;
+	float: right;
+}
+.head-menu img {
+	padding-top: 15px;
+}
+.main-img {
+	text-align: center;
+}
+/*.main-img {
+	position: relative;
+}*/
+/*.over-img {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}*/
+/*.over-text {
+	position: absolute;
+	font-weight: 700;
+	max-width: 112px;
+	line-height: 1.2;
+	word-break: break-all;
+	text-align: right;
+	top: 58px;
+	right: 10px;
+}
+ .over-text-link {
+ 	position: absolute;
+ 	top: 105px;
+ 	right: 10px;
+ }*/
+ .cover-girl {
+ 	padding: 10px;
+ 	text-align: center;
+ }
+ .pick-up-bar {
+	clear: both;
+ }
+ .pin-position {
+ 	padding: 8px;
+ 	float: left;
+ }
+div.f-color-bar.f-size-22 {
+	padding: 10px;
+}
+/*.picup-contents {
+	padding: 8px 10px;
+	word-spacing: 2px;
+}
+.pickup-contents-left {
+	float: left;
+	width: 80%;
+}
+.pickup-contents-right {
+	width: 20%;
+	margin-left: 80%;
+	text-align: center;
+}*/
+
+/* displayテーブルを使ったパターン！--------------- */
+li.picup-contents.box {
+	padding: 5px;
+}
+li.picup-contents {
+	padding: 5px;
+}
+li.pickup-contents-left.p-box {
+	/*width: 72%;*/
+}
+li.pickup-contents-right.p-box {
+	text-align: center;
+	width: 20%;
+}
+.box {
+	display: table;
+	width: 97%;
+}
+.p-box {
+	display: table-cell;
+	vertical-align:middle;
+	margin-left: 10px;
+}
+/* displayテーブルを使ったパターン！、、、おわり----------- */
+.picup-contents {
+	padding: 0 10px;
+}
+.pickup-contents-noimg {
+	width: 98%;
+}
+.contents-p {
+	padding: 5px;
+	line-height: 1.1rem;
+}
+.sub-p {
+	padding-left: 5px;
+}
+li.picup-contents {
+border-bottom: 1px solid #ccc;
+-webkit-box-shadow: 2px 2px 2px #fff;　
+}
+li.picup-contents:nth-child(6) {
+	border-bottom: none;
+}
+.colum {
+	width: 100%;
+}
+
+.notice-box {
+	display: box;
+	display: -webkit-box;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 100%;
+}
+.side-colum,.center-colum { 
+	text-align: center;
+	margin: 0 3px;
+	box-sizing: border-box;
+	width: 32%;
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+	border-radius: 2px;
+	
+}
+.center-colum {
+	margin: 0;
+}
+.title {
+	margin-top: 3px;
+	text-align: left;	
+}
+.notice-sub-box {
+	float: left;
+}
+.view-count {
+	margin-top: 10px;
+	text-align: left;
+}
+.contents-word-length {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.words-length {
+	margin-top: 9px;
+	text-align: left;
+}
+.more-btn {
+	width: 100%;
+	/*margin-left: 3%;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+	border: 0;
+	height: 40px;
+}
+.clearfix {
+	clear: both;
+}
+.picup-contents-btn {
+	padding: 10px;
+}
+.lanking-tips {
+	float: left;
+}
+/*.ysd-acc-lank:before {
+	content: " ";
+	width: 24px;
+	height: 22px;
+	display: block;
+	background: url('../images/topics/lanking-tips_1.png');
+	-webkit-background-size: 24px 22px;
+	     -o-background-size: 24px 22px;
+	        background-size: 24px 22px;
+}*/
+
+.lanking-tips img {
+	margin: 5px 10px 0 0;
+}
+
+.ysd-acc-lank {
+border-bottom: 1px solid #ccc;
+clear: both;
+padding: 10px;
+vertical-align: middle;
+}
+li.ysd-acc-lank:nth-child(5) {
+	border-bottom: none;
+}
+.maru {
+	width: 9px;
+	height: 9px;
+	-webkit-border-radius: 9px;
+	        border-radius: 9px;
+	background-color: #999;   
+	color: #FFF;
+	font-size: 8px; 
+	font-weight: lighter; 
+	margin: 5px 10px 30px 5px;
+	float: left;
+}
+.num {
+	padding: 2px;
+	/*float: left;*/
+}
+.pdding-class {
+	padding: 4px;
+}
+.c-center {
+	vertical-align: middle;
+}
+/*.f-class {
+	float: left;
+}*/
