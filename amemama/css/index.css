@@ -344,6 +344,9 @@ li.ysd-acc-lank:nth-child(5) {
 .c-center {
 	vertical-align: middle;
 }
+.l-width {
+	width: 81px;
+}
 /*.f-class {
 	float: left;
 }*/
