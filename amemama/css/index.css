@@ -295,9 +295,6 @@ li.picup-contents:nth-child(6) {
 .picup-contents-btn {
 	padding: 10px;
 }
-.ysd-acc-lank {
-	padding: 10px;
-}
 .lanking-tips {
 	float: left;
 }
@@ -318,6 +315,12 @@ li.picup-contents:nth-child(6) {
 
 .ysd-acc-lank {
 border-bottom: 1px solid #ccc;
+clear: both;
+padding: 10px;
+vertical-align: middle;
+}
+li.ysd-acc-lank:nth-child(5) {
+	border-bottom: none;
 }
 .maru {
 	width: 9px;
@@ -328,11 +331,19 @@ border-bottom: 1px solid #ccc;
 	color: #FFF;
 	font-size: 8px; 
 	font-weight: lighter; 
-	margin: 5px 10px 5px 5px;
+	margin: 5px 10px 30px 5px;
+	float: left;
 }
 .num {
 	padding: 2px;
+	/*float: left;*/
 }
 .pdding-class {
 	padding: 4px;
 }
+.c-center {
+	vertical-align: middle;
+}
+/*.f-class {
+	float: left;
+}*/
