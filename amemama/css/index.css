@@ -48,6 +48,9 @@ ul,li,ol {
 .f-size-22 {
 	font-size: 11px;
 }
+.f-size-30 {
+	font-size: 15px;
+}
 .f-size-34 {
 	font-size: 17px;
 }
@@ -291,4 +294,25 @@ li.picup-contents:nth-child(6) {
 }
 .picup-contents-btn {
 	padding: 10px;
+}
+.ysd-acc-lank {
+	padding: 10px;
+}
+.lanking-tips {
+	float: left;
+}
+.ysd-acc-lank a:before {
+	background: url('../images/topics/lanking-tips_1.png');
+}
+
+.lanking-tips img {
+	margin: 5px 10px 0 0;
+}
+
+.ysd-acc-lank {
+border-bottom: 1px solid #ccc;
+}
+
+.pdding-class {
+	padding: 3px;
 }
